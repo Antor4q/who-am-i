@@ -1,0 +1,11 @@
+*{
+    margin:0;
+    padding:0;
+}
+h1{
+    color:red;
+}
+.goro{
+    background-image: url('images/pro1.jpg');
+    height:100vh;
+}
