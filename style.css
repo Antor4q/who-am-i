@@ -1,11 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:wght@600&family=Whisper&display=swap');
 *{
     margin:0;
     padding:0;
+    font-family: 'Lato', sans-serif;
 }
-h1{
-    color:red;
-}
+
 .goro{
-    background-image: url('images/pro1.jpg');
+    background-image: url('images/pro2.jpg');
     height:100vh;
+    background-size: cover;
+    /* background-position: bottom center; */
+}
+.goro h1{
+    color:bisque;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 900px;
+    padding-top:60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    word-spacing: 20px;
+    letter-spacing: 10px;
+}
+.article{
+    width:80%;
+    margin:60px auto;
+    background-color: aqua;
+    padding:60px;
+    border:20px solid yellow;
 }
